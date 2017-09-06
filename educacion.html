@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Educación</title>
+</head>
+<body>
+  <header>
+    <img src="img/logo.svg" alt="logo" width="200px">
+    <h1>Hoja de Vida</h1>
+  </header>
+  <section>
+    <h2>Datos Personales</h2>
+    <h3>
+      <ul>
+        <li>Nombre: Enoc</li>
+        <li>Apellido: Quezda</li>
+        <li>Fecha nacimiento: 05/09/1990</li>
+      </ul>
+    </h3>
+  </section>
+<!--menu navegacion  -->
+  <nav>
+    <ul>
+      <li><a href="index.html">inicio</a></li>
+      <li><a href="educacion.html">Educación</a></li>
+      <li><a href="experiencia.html">Experencia</a></li>
+    </ul>
+  </nav>
+  <!--fin menu  -->
+
+  <!--tabla  -->
+  <section>
+    <article>
+      <h2>Educacion</h2>
+        <table border="1">
+          <tr>
+            <td>Año</td>
+            <td>Institución</td>
+            <td>Lugar</td>
+            <td>¿Culmino?</td>
+          </tr>
+          <tr>
+            <td>2005</td>
+            <td>Pablo Neruda</td>
+            <td>Santiago</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2009</td>
+            <td>Guillermo Feliu Cruz</td>
+            <td>Santiago</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Next University</td>
+            <td>Santiago</td>
+            <td>No</td>
+          </tr>
+        </table>
+    </article>
+  </section>
+  <!-- formulario -->
+  <form autocomplete="on" name="formulario">
+    <h2>Agregar Estudios</h2>
+      <label for="año">Año:</label>
+        <select class="año" name="año">
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+        </select>
+          <br>
+        <label for="institucion">institución:</label>
+        <input type="text" name="institucion" required>
+        <br>
+        <label for="lugar">Lugar:</label>
+        <input type="text" name="lugar">
+        <br>
+        <label for="culmino">¿Culmino?</label>
+        <input type="radio" name="culmino" value="si"><label for="si">Si</label>
+        <input type="radio" name="culmino" value="no"><label for="si">No</label>
+        <br>
+        <input type="submit" name="enviar" value="enviar">
+  </form>
+  <footer>
+     <p>Email <a href="enoc.e.q@gmail.com">enoc.e.q@gmail.com</a></p>
+     <p>Telefono: 90942541</p>
+     <p>Dirección: Montecarlo 1022</p>
+      <cite>@Derachos Reservados</cite>
+  </footer>
+</body>
+</html>
